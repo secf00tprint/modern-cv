@@ -68,6 +68,12 @@ After saving to a `*.typ` file, compile your resume using the following command:
 typst compile resume.typ
 ```
 
+or if you have downloaded the font awesome fonts like described in the last chapter to get icons rendered:
+
+```bash
+typst compile resume.typ --font-path fonts
+```
+
 For more information on how to use and compile `typst` files, see the [official documentation](https://typst.app/docs).
 
 Documentation for this template is published with each commit. See the attached PDF on each Github Action run [here](https://github.com/DeveloperPaul123/modern-cv/actions).
